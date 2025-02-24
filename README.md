@@ -18,10 +18,38 @@ Supplier Management: Keep track of medicine suppliers.
 
 Reports & Analytics: View sales reports and stock levels.
 
-Database Integration: Supports MySQL/SQLite for data storage.
+Database Integration: Supports MySQL for data storage.
 
-Graphical User Interface (GUI): Built with Java Swing/JavaFX.
+Graphical User Interface (GUI): Built with Java Swing
+Steps to Run
 
+Clone the repository
+
+git clone https://github.com/yourusername/pharmacy-management-system.git
+cd pharmacy-management-system
+
+Import the project into your preferred Java IDE.
+
+Set up the database:
+
+Open MySQL and create a database:
+
+CREATE DATABASE pharmacy_db;
+
+Import the provided SQL file (database.sql) to set up tables.
+
+Configure database connection:
+
+Open dbConfig.java and update the database credentials.
+
+Build and Run the Project:
+
+If using Apache Ant:
+
+ant build
+ant run
+
+Otherwise, compile and run Main.java directly from your IDE.
 🛠️ Technologies Used
 
 Programming Language: Java
@@ -30,7 +58,7 @@ Database: MySQL / SQLite
 
 GUI Framework: Java Swing / JavaFX
 
-Development Tools: NetBeans, Eclipse, IntelliJ IDEA
+Development Tools: NetBeans
 
 Build Tool: Apache Ant
 
@@ -42,8 +70,37 @@ Ensure you have the following installed:
 
 Java Development Kit (JDK) 8+
 
-MySQL Database (or SQLite for lightweight use)
+MySQL Database
 
-NetBeans, Eclipse, or IntelliJ IDEA
+NetBeans
 
-Apache Ant (if using build.xml for compilation)
+
+🤝 Contributors
+
+Your Name – Shivendra Pratap Singh
+
+Other Team Members- Prerna Shukla, Himanshu Singh Kachwaha, Isha Dixit and Ramanshu Yadav
+
+📜 License
+
+This project is licensed under the MIT License.
+
+🔮 Future Enhancements
+
+Implement barcode scanning for faster checkout.
+
+Add an online ordering module for customers.
+
+Improve UI with modern JavaFX designs.
+
+Implement a cloud-based database integration.
+
+📝 Notes
+
+Ensure that you have proper database configurations before running the system.
+
+Modify config.properties or dbConfig.java for any required database changes.
+
+If you encounter issues, check the logs or refer to the Troubleshooting section in the documentation.
+
+Feel free to contribute and improve this project! 🚀
