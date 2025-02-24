@@ -50,6 +50,7 @@ ant build
 ant run
 
 Otherwise, compile and run Main.java directly from your IDE.
+
 🛠️ Technologies Used
 
 Programming Language: Java
